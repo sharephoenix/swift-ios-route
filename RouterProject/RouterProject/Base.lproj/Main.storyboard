@@ -55,14 +55,23 @@
                                     <action selector="routePushFromUrl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Px-tf-hYq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg1-cT-wLt">
+                                <rect key="frame" x="138" y="245" width="99" height="30"/>
+                                <state key="normal" title="Route Web Url"/>
+                                <connections>
+                                    <action selector="RouteWebUrl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWA-gn-3lA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="794-Mc-fno" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4AN-3z-f3N"/>
                             <constraint firstItem="794-Mc-fno" firstAttribute="top" secondItem="ZJ8-T8-fAO" secondAttribute="bottom" constant="24" id="IMY-zP-LFR"/>
+                            <constraint firstItem="Cg1-cT-wLt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K77-cC-5Kc"/>
                             <constraint firstItem="ZJ8-T8-fAO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ovg-yi-r5h"/>
                             <constraint firstItem="UYp-fU-NIC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="P2C-Xo-6UT"/>
                             <constraint firstItem="ZJ8-T8-fAO" firstAttribute="top" secondItem="UYp-fU-NIC" secondAttribute="bottom" constant="16" id="VMK-Go-6TD"/>
+                            <constraint firstItem="Cg1-cT-wLt" firstAttribute="top" secondItem="794-Mc-fno" secondAttribute="bottom" constant="20" id="Whh-0Z-mLW"/>
                             <constraint firstItem="UYp-fU-NIC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ux5-eY-acd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

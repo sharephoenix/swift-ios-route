@@ -12,9 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let arr = ["abc","bbd","abc","bbd"]
-        let index = arr.findIndex(item: "BBd")
-        print("asdf")
+  
     }
 
     @IBAction func routePushUIAction(_ sender: Any) {
@@ -27,7 +25,10 @@ class ViewController: UIViewController {
     
     @IBAction func routePushFromUrl(_ sender: Any) {
         let routeUrl = "routeprotocol://routerproject:10002?nickName=alexluan&address=anhui"
-//        let routeUrl = "http://www.baidu.com"
+        Router.openUrl(url: routeUrl)
+    }
+    @IBAction func RouteWebUrl(_ sender: Any) {
+        let routeUrl = "http://www.baidu.com"
         Router.openUrl(url: routeUrl)
     }
 }
