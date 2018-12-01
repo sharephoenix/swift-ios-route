@@ -19,7 +19,7 @@
 		D0274C9C21B2F0B1002E3684 /* modules.json in Resources */ = {isa = PBXBuildFile; fileRef = D0274C9721B2F0B1002E3684 /* modules.json */; };
 		D0274C9D21B2F0B1002E3684 /* RouteFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9821B2F0B1002E3684 /* RouteFirstController.swift */; };
 		D0274C9E21B2F0B1002E3684 /* AutoCreateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9921B2F0B1002E3684 /* AutoCreateProtocol.swift */; };
-		D0274CA021B2F208002E3684 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9F21B2F208002E3684 /* Helper.swift */; };
+		D0274CA021B2F208002E3684 /* RHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0274C9F21B2F208002E3684 /* RHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		D0274C9721B2F0B1002E3684 /* modules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = modules.json; sourceTree = "<group>"; };
 		D0274C9821B2F0B1002E3684 /* RouteFirstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteFirstController.swift; sourceTree = "<group>"; };
 		D0274C9921B2F0B1002E3684 /* AutoCreateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCreateProtocol.swift; sourceTree = "<group>"; };
-		D0274C9F21B2F208002E3684 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D0274C9F21B2F208002E3684 /* RHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		D0274C9421B2F0B1002E3684 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				D0274C9F21B2F208002E3684 /* Helper.swift */,
+				D0274C9F21B2F208002E3684 /* RHelper.swift */,
 				D0274C9521B2F0B1002E3684 /* Router.swift */,
 				D0274C9621B2F0B1002E3684 /* LBaseController.swift */,
 				D0274C9721B2F0B1002E3684 /* modules.json */,
@@ -284,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0274C6921B2F080002E3684 /* ViewController.swift in Sources */,
-				D0274CA021B2F208002E3684 /* Helper.swift in Sources */,
+				D0274CA021B2F208002E3684 /* RHelper.swift in Sources */,
 				D0274C9A21B2F0B1002E3684 /* Router.swift in Sources */,
 				D0274C9E21B2F0B1002E3684 /* AutoCreateProtocol.swift in Sources */,
 				D0274C6721B2F080002E3684 /* AppDelegate.swift in Sources */,

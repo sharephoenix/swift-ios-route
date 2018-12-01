@@ -36,7 +36,7 @@ extension Array {
     }
 }
 
-class Helper: NSObject {
+class RHelper: NSObject {
     
     class func getCurrentWindow() -> UIWindow? {
         let window = UIApplication.shared.keyWindow
@@ -44,7 +44,7 @@ class Helper: NSObject {
     }
     
     class func getCurrentNavController() -> UIViewController? {
-        guard let window = Helper.getCurrentWindow() else {
+        guard let window = RHelper.getCurrentWindow() else {
             return nil
         }
         var vc = window.rootViewController

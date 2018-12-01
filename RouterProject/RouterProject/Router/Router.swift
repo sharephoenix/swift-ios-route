@@ -57,7 +57,7 @@ extension Router {
         guard let vc = Router.createViewController(moduleId: moduleId, params: params) else {
             return false
         }
-        guard let currentVC = Helper.getCurrentNavController() else {
+        guard let currentVC = RHelper.getCurrentNavController() else {
             return false
         }
         guard let nav = currentVC.navigationController else {
@@ -72,7 +72,7 @@ extension Router {
         guard let vc = Router.createViewController(domainName:domainName, className: className, params: params) else {
             return false
         }
-        guard let currentVC = Helper.getCurrentNavController() else {
+        guard let currentVC = RHelper.getCurrentNavController() else {
             return false
         }
         guard let nav = currentVC.navigationController else {
