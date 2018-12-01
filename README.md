@@ -3,7 +3,7 @@
 
 二、paltform: iOS
 
-三、L: 用于 界面的 路由 跳转, 在跳转时候，必须遵循跳转协议，和 module 分离
+三、L: 用于 界面的 路由(Route) 跳转, 在跳转时候，必须遵循跳转协议，和 module 分离
     在使用时 let supportDomains = ["RouterProject"] 可以先将 "RouterProject" 修改为的的工程名称。
     在工程中，”RouterProject“ = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String 
 
