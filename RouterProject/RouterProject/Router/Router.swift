@@ -32,7 +32,7 @@ extension Router {
             if let urlreal = URL.init(string: url) {
                 UIApplication.shared.openURL(urlreal)
                 return true
-            }else {
+            } else {
                 LPrint("url 有误")
                 return false
             }
@@ -47,8 +47,7 @@ extension Router {
             return false
         }
         
-     
-        
+    
         return Router.openController(domainName:domainName, className: className, params: urlParams.params)
         
     }
