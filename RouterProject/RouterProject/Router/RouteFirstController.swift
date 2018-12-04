@@ -9,23 +9,22 @@
 import UIKit
 
 class RouteFirstController: LBaseController {
-    
-    var dic:Dictionary<String,Any?>?
+
+    var dic: Dictionary<String, Any?>?
     let visibleLabel = UILabel()
-    
+
     convenience required init(params: Dictionary<String, Any?>) {
         self.init()
         print(params)
         self.dic = params
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red
         visibleLabel.text = "\(String(describing: dic))"
         view.addSubview(visibleLabel)
-        
-        
+
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()

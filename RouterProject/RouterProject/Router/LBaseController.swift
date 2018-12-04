@@ -12,10 +12,10 @@ class LBaseController: UIViewController, AutoCreateProtocol {
     convenience required init(params: Dictionary<String, Any?>) {
         self.init()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
 
 }
