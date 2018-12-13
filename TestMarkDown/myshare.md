@@ -3,26 +3,29 @@
 * 设计模式有什么用
     1. 设计模式，是开发先辈们，在开发中长期积累的经验，给我们留下的宝贵财富。
     2. 设计模式可以让我们站在巨人的肩膀上，思考。
+* 曾经遇见的几个和设计模式有关的坑
+    1. 响应式编程，滥用 ReactiveCocoa 导致全工程的 信号传递。堆栈混乱，出现问题时候很难定位。
+    2. 误解 ViewController 就是 MVC 框架中的 Controller。
+    3. 滥用 xib，xib 的界面复用功能。
 * MVC
     <img src="./images/share0/mvc.png"/>
 * M V VM
     <img src="./images/share0/mvvm.png">
-* 设计模式的使用？
+* 对设计模式的使用的想法
     1. 每个设计模式，都有自己，本来的使用场景，切记不可以完全套用
     2. 每个设计模式，都需要在根据业务，做出少许的变动
 * 目前流向的框架有哪些
    1. MVC、M V VM、MVP 的区别是什么？
    2. MVC、M V VM、MVP 和我们理解的他们有什么不同？
+    1. 对我来说没啥区别，只要是能够，更好的完成代码功能都是好的设计模式。
+
 * 我常用的设计模式
-    1. MVC / M V VM / MVP / 工厂模式 / 组合模式。
+    1. MVC / M V VM / MVP / 工厂模式 / 组合模式 / 集成
 
 * 框架 是为了解决什么问题的？ （我不会问什么是 “框架”）
   1. 框架是为了让整个项目，可以按照已经约定好的规则，让程序员写出统一的代码。
   2. 统一数据流的方向 和 事件分发。
-  3. 高内聚 低耦合 的原则，使 项目周期中 业务之间可以 更容易的解耦 和 重构。
-  
-
-
+  3. 统一界面管理，和界面中对应的事件管理。尽量可以在 多层级中的任何 View 中都可以访问到事件，下发响应的指令。
 
 * 殊途同归，所有框架都是为了，数据流 的清晰，使开发者有一个基本的开发思路，团队中可以根据框架的思路，编写出统一数据流的，代码机构。
   
@@ -51,3 +54,8 @@
     2. 系统默认的 internal 是否需要添加
     3. 如果不需要添加，我们看别人的代码如何才能很快的找到 外部可以调用的代码
     4. 对于生命周期 的 方法放在 category 中怎么看
+    5. http://www.xiaoheiban.cn/agreements.html  http://test.xiaoheiban.cn/Help-xhbGuide?type=bag_guide 有一个这个链接直接放在了界面中，我的理解应该放在，统一的配置文件中
+    6. MyselfInfoViewController 这个界面中 username 属性
+    7. GrowthClassroomChooseViewController DoSurveyViewController 有些类中有很多 其他的类，在开头部分，不太习惯
+    8. PunchRecordDetailViewController 扩展类有点多，有说明扩展类的功能就比较好了
+    9. PunchFrequencySettingViewController 属性放在 类的中间
