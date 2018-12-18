@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FA63B221C8E98A0083526C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63B121C8E98A0083526C /* AppDelegate.swift */; };
+		18FA63B421C8E98A0083526C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63B321C8E98A0083526C /* ViewController.swift */; };
+		18FA63B721C8E98A0083526C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA63B521C8E98A0083526C /* Main.storyboard */; };
+		18FA63B921C8E98C0083526C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FA63B821C8E98C0083526C /* Assets.xcassets */; };
+		18FA63BC21C8E98C0083526C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA63BA21C8E98C0083526C /* LaunchScreen.storyboard */; };
+		18FA63C721C8E98C0083526C /* PopSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63C621C8E98C0083526C /* PopSwiftTests.swift */; };
+		18FA63D221C8E98C0083526C /* PopSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63D121C8E98C0083526C /* PopSwiftUITests.swift */; };
+		18FA63E121C8EA5F0083526C /* PopBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63E021C8EA5F0083526C /* PopBaseView.swift */; };
+		95A659FECAAED9AC732D746F /* Pods_PopSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428F5B8E23C754A6991D29DB /* Pods_PopSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FA63C321C8E98C0083526C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FA63A621C8E98A0083526C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FA63AD21C8E98A0083526C;
+			remoteInfo = PopSwift;
+		};
+		18FA63CE21C8E98C0083526C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FA63A621C8E98A0083526C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FA63AD21C8E98A0083526C;
+			remoteInfo = PopSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FA63AE21C8E98A0083526C /* PopSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA63B121C8E98A0083526C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FA63B321C8E98A0083526C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FA63B621C8E98A0083526C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FA63B821C8E98C0083526C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FA63BB21C8E98C0083526C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FA63BD21C8E98C0083526C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA63C221C8E98C0083526C /* PopSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA63C621C8E98C0083526C /* PopSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopSwiftTests.swift; sourceTree = "<group>"; };
+		18FA63C821C8E98C0083526C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA63CD21C8E98C0083526C /* PopSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA63D121C8E98C0083526C /* PopSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopSwiftUITests.swift; sourceTree = "<group>"; };
+		18FA63D321C8E98C0083526C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA63E021C8EA5F0083526C /* PopBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBaseView.swift; sourceTree = "<group>"; };
+		428F5B8E23C754A6991D29DB /* Pods_PopSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B26418799696AEA605FAB27 /* Pods-PopSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7D841D82E22798AF8E3271C7 /* Pods-PopSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FA63AB21C8E98A0083526C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A659FECAAED9AC732D746F /* Pods_PopSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63BF21C8E98C0083526C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63CA21C8E98C0083526C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D65BDA769BBFA3891EE96A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D841D82E22798AF8E3271C7 /* Pods-PopSwift.debug.xcconfig */,
+				6B26418799696AEA605FAB27 /* Pods-PopSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18FA63A521C8E98A0083526C = {
+			isa = PBXGroup;
+			children = (
+				18FA63B021C8E98A0083526C /* PopSwift */,
+				18FA63C521C8E98C0083526C /* PopSwiftTests */,
+				18FA63D021C8E98C0083526C /* PopSwiftUITests */,
+				18FA63AF21C8E98A0083526C /* Products */,
+				06D65BDA769BBFA3891EE96A /* Pods */,
+				70E225883ABE06B129CAA7CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FA63AF21C8E98A0083526C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FA63AE21C8E98A0083526C /* PopSwift.app */,
+				18FA63C221C8E98C0083526C /* PopSwiftTests.xctest */,
+				18FA63CD21C8E98C0083526C /* PopSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FA63B021C8E98A0083526C /* PopSwift */ = {
+			isa = PBXGroup;
+			children = (
+				18FA63DF21C8EA180083526C /* PopWidget */,
+				18FA63B121C8E98A0083526C /* AppDelegate.swift */,
+				18FA63B321C8E98A0083526C /* ViewController.swift */,
+				18FA63B521C8E98A0083526C /* Main.storyboard */,
+				18FA63B821C8E98C0083526C /* Assets.xcassets */,
+				18FA63BA21C8E98C0083526C /* LaunchScreen.storyboard */,
+				18FA63BD21C8E98C0083526C /* Info.plist */,
+			);
+			path = PopSwift;
+			sourceTree = "<group>";
+		};
+		18FA63C521C8E98C0083526C /* PopSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FA63C621C8E98C0083526C /* PopSwiftTests.swift */,
+				18FA63C821C8E98C0083526C /* Info.plist */,
+			);
+			path = PopSwiftTests;
+			sourceTree = "<group>";
+		};
+		18FA63D021C8E98C0083526C /* PopSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FA63D121C8E98C0083526C /* PopSwiftUITests.swift */,
+				18FA63D321C8E98C0083526C /* Info.plist */,
+			);
+			path = PopSwiftUITests;
+			sourceTree = "<group>";
+		};
+		18FA63DF21C8EA180083526C /* PopWidget */ = {
+			isa = PBXGroup;
+			children = (
+				18FA63E021C8EA5F0083526C /* PopBaseView.swift */,
+			);
+			path = PopWidget;
+			sourceTree = "<group>";
+		};
+		70E225883ABE06B129CAA7CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				428F5B8E23C754A6991D29DB /* Pods_PopSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FA63AD21C8E98A0083526C /* PopSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FA63D621C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwift" */;
+			buildPhases = (
+				ABAD446B97FD773FC48EA62E /* [CP] Check Pods Manifest.lock */,
+				18FA63AA21C8E98A0083526C /* Sources */,
+				18FA63AB21C8E98A0083526C /* Frameworks */,
+				18FA63AC21C8E98A0083526C /* Resources */,
+				E6839851E9AE2C070A6BFE9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopSwift;
+			productName = PopSwift;
+			productReference = 18FA63AE21C8E98A0083526C /* PopSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FA63C121C8E98C0083526C /* PopSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FA63D921C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwiftTests" */;
+			buildPhases = (
+				18FA63BE21C8E98C0083526C /* Sources */,
+				18FA63BF21C8E98C0083526C /* Frameworks */,
+				18FA63C021C8E98C0083526C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FA63C421C8E98C0083526C /* PBXTargetDependency */,
+			);
+			name = PopSwiftTests;
+			productName = PopSwiftTests;
+			productReference = 18FA63C221C8E98C0083526C /* PopSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FA63CC21C8E98C0083526C /* PopSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FA63DC21C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwiftUITests" */;
+			buildPhases = (
+				18FA63C921C8E98C0083526C /* Sources */,
+				18FA63CA21C8E98C0083526C /* Frameworks */,
+				18FA63CB21C8E98C0083526C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FA63CF21C8E98C0083526C /* PBXTargetDependency */,
+			);
+			name = PopSwiftUITests;
+			productName = PopSwiftUITests;
+			productReference = 18FA63CD21C8E98C0083526C /* PopSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FA63A621C8E98A0083526C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18FA63AD21C8E98A0083526C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18FA63C121C8E98C0083526C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18FA63AD21C8E98A0083526C;
+					};
+					18FA63CC21C8E98C0083526C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18FA63AD21C8E98A0083526C;
+					};
+				};
+			};
+			buildConfigurationList = 18FA63A921C8E98A0083526C /* Build configuration list for PBXProject "PopSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FA63A521C8E98A0083526C;
+			productRefGroup = 18FA63AF21C8E98A0083526C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FA63AD21C8E98A0083526C /* PopSwift */,
+				18FA63C121C8E98C0083526C /* PopSwiftTests */,
+				18FA63CC21C8E98C0083526C /* PopSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FA63AC21C8E98A0083526C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA63BC21C8E98C0083526C /* LaunchScreen.storyboard in Resources */,
+				18FA63B921C8E98C0083526C /* Assets.xcassets in Resources */,
+				18FA63B721C8E98A0083526C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63C021C8E98C0083526C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63CB21C8E98C0083526C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABAD446B97FD773FC48EA62E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6839851E9AE2C070A6BFE9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FA63AA21C8E98A0083526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA63B421C8E98A0083526C /* ViewController.swift in Sources */,
+				18FA63B221C8E98A0083526C /* AppDelegate.swift in Sources */,
+				18FA63E121C8EA5F0083526C /* PopBaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63BE21C8E98C0083526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA63C721C8E98C0083526C /* PopSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA63C921C8E98C0083526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA63D221C8E98C0083526C /* PopSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FA63C421C8E98C0083526C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FA63AD21C8E98A0083526C /* PopSwift */;
+			targetProxy = 18FA63C321C8E98C0083526C /* PBXContainerItemProxy */;
+		};
+		18FA63CF21C8E98C0083526C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FA63AD21C8E98A0083526C /* PopSwift */;
+			targetProxy = 18FA63CE21C8E98C0083526C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FA63B521C8E98A0083526C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA63B621C8E98A0083526C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FA63BA21C8E98C0083526C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA63BB21C8E98C0083526C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FA63D421C8E98C0083526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FA63D521C8E98C0083526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FA63D721C8E98C0083526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D841D82E22798AF8E3271C7 /* Pods-PopSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FA63D821C8E98C0083526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B26418799696AEA605FAB27 /* Pods-PopSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FA63DA21C8E98C0083526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopSwift.app/PopSwift";
+			};
+			name = Debug;
+		};
+		18FA63DB21C8E98C0083526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopSwift.app/PopSwift";
+			};
+			name = Release;
+		};
+		18FA63DD21C8E98C0083526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopSwift;
+			};
+			name = Debug;
+		};
+		18FA63DE21C8E98C0083526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.test.PopSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FA63A921C8E98A0083526C /* Build configuration list for PBXProject "PopSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA63D421C8E98C0083526C /* Debug */,
+				18FA63D521C8E98C0083526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FA63D621C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA63D721C8E98C0083526C /* Debug */,
+				18FA63D821C8E98C0083526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FA63D921C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA63DA21C8E98C0083526C /* Debug */,
+				18FA63DB21C8E98C0083526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FA63DC21C8E98C0083526C /* Build configuration list for PBXNativeTarget "PopSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA63DD21C8E98C0083526C /* Debug */,
+				18FA63DE21C8E98C0083526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FA63A621C8E98A0083526C /* Project object */;
+}
