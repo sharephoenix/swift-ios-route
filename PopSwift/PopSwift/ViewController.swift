@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let pop = PopBaseView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +17,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showPopView(_ sender: UIButton) {
+        let customView = PopCustomView()
+        pop.showFrom(sender: sender, customPopView: customView as! UIView, popDiection: .bottomRight)
+        pop.showCustomViewFromBottomRight()
+    }
+    @IBAction func dissmiss(_ sender: Any) {
+        pop.dismiss()
+    }
 }
 

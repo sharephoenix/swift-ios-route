@@ -15,6 +15,8 @@
 		18FA63C721C8E98C0083526C /* PopSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63C621C8E98C0083526C /* PopSwiftTests.swift */; };
 		18FA63D221C8E98C0083526C /* PopSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63D121C8E98C0083526C /* PopSwiftUITests.swift */; };
 		18FA63E121C8EA5F0083526C /* PopBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63E021C8EA5F0083526C /* PopBaseView.swift */; };
+		18FA63E921C9F59D0083526C /* PopCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA63E821C9F59D0083526C /* PopCustomView.swift */; };
+		18FA63ED21C9F6060083526C /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA63EC21C9F6060083526C /* a.png */; };
 		95A659FECAAED9AC732D746F /* Pods_PopSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428F5B8E23C754A6991D29DB /* Pods_PopSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		18FA63D121C8E98C0083526C /* PopSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopSwiftUITests.swift; sourceTree = "<group>"; };
 		18FA63D321C8E98C0083526C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FA63E021C8EA5F0083526C /* PopBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBaseView.swift; sourceTree = "<group>"; };
+		18FA63E821C9F59D0083526C /* PopCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCustomView.swift; sourceTree = "<group>"; };
+		18FA63EC21C9F6060083526C /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 		428F5B8E23C754A6991D29DB /* Pods_PopSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B26418799696AEA605FAB27 /* Pods-PopSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7D841D82E22798AF8E3271C7 /* Pods-PopSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopSwift/Pods-PopSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +151,9 @@
 		18FA63DF21C8EA180083526C /* PopWidget */ = {
 			isa = PBXGroup;
 			children = (
+				18FA63EC21C9F6060083526C /* a.png */,
 				18FA63E021C8EA5F0083526C /* PopBaseView.swift */,
+				18FA63E821C9F59D0083526C /* PopCustomView.swift */,
 			);
 			path = PopWidget;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA63ED21C9F6060083526C /* a.png in Resources */,
 				18FA63BC21C8E98C0083526C /* LaunchScreen.storyboard in Resources */,
 				18FA63B921C8E98C0083526C /* Assets.xcassets in Resources */,
 				18FA63B721C8E98A0083526C /* Main.storyboard in Resources */,
@@ -343,6 +350,7 @@
 				18FA63B421C8E98A0083526C /* ViewController.swift in Sources */,
 				18FA63B221C8E98A0083526C /* AppDelegate.swift in Sources */,
 				18FA63E121C8EA5F0083526C /* PopBaseView.swift in Sources */,
+				18FA63E921C9F59D0083526C /* PopCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
