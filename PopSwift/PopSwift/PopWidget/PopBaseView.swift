@@ -59,7 +59,7 @@ class PopBaseView: UIControl {
         }
     }
 
-    internal func showCustomViewFromBottomRight() {
+    internal func showCustomViewFromBottomRight(getSize: (() -> (CGSize))) {
         // 添加基础的View
         setupUI()
         switch self.popDiection {
@@ -68,6 +68,7 @@ class PopBaseView: UIControl {
                 make.top.equalToSuperview().offset(senderFrame.maxY)
                 let right = parentFrame.width - senderFrame.maxX
                 make.trailing.equalToSuperview().offset(-(right))
+                make.size.equalTo(getSize())
             })
         default:
             break
