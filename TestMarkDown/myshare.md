@@ -53,6 +53,8 @@
 
 ## 我的项目开发框架模型图。
 
+<center> 直播类项目: </center>
+
 <img src="./images/share0/history_design_struct.png">
 
 ## 我的框架组件，和项目框架，没有耦合
